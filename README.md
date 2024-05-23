@@ -1,7 +1,7 @@
 <!--
-author:   Niklas
+author:   Niklas Werner
 
-email:    your@mail.org
+email:    niklas.werner@student.tu-freiberg.de
 
 version:  0.0.1
 
@@ -9,8 +9,7 @@ language: en
 
 narrator: US English Female
 
-comment:  Try to write a short comment about
-          your course, multiline is also okay.
+comment:  An explanation of the Fast Inverse Square Root algorithm as found in "Quake III Arena" (1999).
 
 link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
 
@@ -40,13 +39,9 @@ float Q_rsqrt(float number)
 ```
 
 # Motivation
-![](https://preview.redd.it/zzmfvxaedks51.png?width=1080&crop=smart&auto=webp&s=89cafddd31ead94c98d004a9a8decb4660cf53c8)
+![](https://preview.redd.it/zzmfvxaedks51.png?width=1080&crop=smart&auto=webp&s=89cafddd31ead94c98d004a9a8decb4660cf53c8) In 1993, id Software's "DOOM" revolutionized gaming by bringing a 2.5-dimensional world to the screens of millions.
 
-In 1993, id Software's "DOOM" revolutionized gaming by bringing a 2.5-dimensional world to the screens of millions.
-
-![](https://images.igdb.com/igdb/image/upload/t_720p/tu5xtknz9ilfilspxzlp.jpg)
-
-A year later, EA released "Magic Carpet", which implemented a real 3D environment, but with rather flat lighting.
+![](https://images.igdb.com/igdb/image/upload/t_720p/tu5xtknz9ilfilspxzlp.jpg) A year later, EA released "Magic Carpet", which implemented a real 3D environment, but with rather flat lighting.
 
 Extensive lighting systems need surface normals to compute angles of incidence and refelction. Floating-point division were pretty difficult for the hardware of the time, so an efficient algorithm needed to avoid them as much as possible.
 
@@ -122,6 +117,9 @@ The internet of the early 2000s leaked and spread the code snippet.
 
 # Sources
 https://en.wikipedia.org/wiki/Fast_inverse_square_root
+
 https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions
+
 https://www.reddit.com/r/gaming/comments/26kjm8/comment/chs01my/
+
 https://www.netlib.org/fdlibm/e_sqrt.c
